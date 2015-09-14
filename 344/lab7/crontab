@@ -1,0 +1,19 @@
+butthole
+min(0-59) hour(0-23) day of month(1-31) month(1-12) day of week(0-7) command
+
+34,45 11-14 * 3 1,3,5 /user/faculty/jraigoza/myscript.rb
+
+
+The above executes on the 34th and 45th minute at the hours of 11AM, 12PM, 1PM, & 2PM on any day
+during the month of March on Mon, Wed, & Fri. Note: for day of week (dow), 0 & 7 both represent Sunday
+
+LAB 7 Crontab
+0 18 * 1-5,9-11 5 /souza/344/lab7/backup.sh
+0 18 1-15 12 5 /souza/344/lab7/backup.sh
+
+
+LAB 8 
+
+0 18 1-31/2 * 1-4 /souza/344/lab8/pbackup.sh
+
+
